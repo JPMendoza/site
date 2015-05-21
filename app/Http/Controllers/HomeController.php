@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 class HomeController extends Controller {
+	public $layout = 'layout.default';
 
 	/*
 	|--------------------------------------------------------------------------
@@ -30,7 +31,9 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('home');
+		$this->layout->title = "Jorge P. Mendoza";
+		$this->layout->nest('content', 'home');
+		//return view('home');
 	}
 
 }
