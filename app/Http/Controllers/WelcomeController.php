@@ -30,7 +30,9 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		$title = "Jorge P Mendoza";
+
+		return view('welcome')->with('title', $title);
 	}
 
 
