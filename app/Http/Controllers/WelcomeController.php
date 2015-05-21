@@ -35,5 +35,26 @@ class WelcomeController extends Controller {
 		return view('welcome')->with('title', $title);
 	}
 
+	public function about() {
+		$title = "About Jorge P Mendoza";
+
+		return view('welcome')->with('title', $title);
+		
+	}
+
+
+	public function resume() {
+		$title = "Jorge P Mendoza's Resume";
+
+		return view('welcome')->with('title', $title);
+	}
+
+
+	public function projects() {
+		$title = "Jorge P Mendoza's projects";
+
+		return view('welcome')->with('title', $title);
+	}
+
 
 }
