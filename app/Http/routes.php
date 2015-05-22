@@ -11,12 +11,24 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+/*
+|--------------------------------------------------------------------------
+| Main Routes
+|--------------------------------------------------------------------------
+|
+| Here are the routes to the main pages of my webiste
+|
+*/
 
-Route::get('home', 'WelcomeController@index');
+Route::get('/', 'WelcomeController@index');
 Route::get('resume',"WelcomeController@resume");
 Route::get('projects', "WelcomeController@projects");
 Route::get('about', "WelcomeController@about");
+Route::get('credits', "WelcomeController@credits");
+
+
+Route::get('home', 'HomeController@index');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

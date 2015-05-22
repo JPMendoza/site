@@ -1,7 +1,6 @@
 <?php namespace App\Http\Controllers;
 
 class HomeController extends Controller {
-	public $layout = 'layout.default';
 
 	/*
 	|--------------------------------------------------------------------------
@@ -31,25 +30,8 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		$this->layout->title = "Jorge P. Mendoza";
-		$this->layout->nest('content', 'home');
-		//return view('home');
+		return view('home');
 	}
-
-	public function about() {
-		return "about page";
-	}
-
-
-	public function resume() {
-		return "resume page";
-	}
-
-
-	public function projects() {
-		return "projects page";
-	}
-
 
 
 

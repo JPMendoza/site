@@ -1,5 +1,7 @@
 <?php namespace App\Http\Controllers;
 
+
+
 class WelcomeController extends Controller {
 
 	/*
@@ -12,7 +14,7 @@ class WelcomeController extends Controller {
 	| controllers, you are free to modify or remove it as you desire.
 	|
 	*/
-
+	private $body = "loading";     
 	/**
 	 * Create a new controller instance.
 	 *
@@ -32,13 +34,19 @@ class WelcomeController extends Controller {
 	{
 		$title = "Jorge P Mendoza";
 
-		return view('welcome')->with('title', $title);
+		return view('welcome')->with([
+			'title' => $title,
+			'body'=> $this->body
+			]);
 	}
 
 	public function about() {
 		$title = "About Jorge P Mendoza";
 
-		return view('welcome')->with('title', $title);
+		return view('ComingSoon')->with([
+			'title' => $title,
+			'body'=> $this->body
+			]);
 		
 	}
 
@@ -46,14 +54,31 @@ class WelcomeController extends Controller {
 	public function resume() {
 		$title = "Jorge P Mendoza's Resume";
 
-		return view('welcome')->with('title', $title);
+		return view('ComingSoon')->with([
+			'title' => $title,
+			'body'=> $this->body
+			]);
 	}
 
 
 	public function projects() {
 		$title = "Jorge P Mendoza's projects";
+		
 
-		return view('welcome')->with('title', $title);
+		return view('ComingSoon')->with([
+			'title' => $title,
+			'body'=> $this->body
+			]);
+	}
+
+	public function credits() {
+		$title = "credits";
+		
+
+		return view('ComingSoon')->with([
+			'title' => $title,
+			'body'=> $this->body
+			]);
 	}
 
 

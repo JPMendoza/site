@@ -4,11 +4,12 @@
 <div class="page-header" align="center">
 	<div class="row">
 		<div class="col-md-12">
-	  		<h1> <a href="home"> <font color="black"> Jorge P. Mendoza <font> </a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	  		<h1> <a href="/"> <font color="Black"> Jorge P. Mendoza <font> </a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 	  	    <small aligh="bottom">
-	  	      <a href="/resume"> Resume </a>  &nbsp;&nbsp;&nbsp; 
-	  	      <a href="/projects">Projects </a>  &nbsp;&nbsp;&nbsp;
-	  	      <a href="/about"> About </a>  &nbsp;&nbsp;&nbsp;
+	  	      <a href="/resume"> <font color="Black"> Resume </a>  &nbsp;&nbsp;&nbsp; 
+	  	      <a href="/projects"><font color="Black"> Projects </a>  &nbsp;&nbsp;&nbsp;
+	  	      <a href="/about"> <font color="Black"> About </a>  &nbsp;&nbsp;&nbsp;
+	  	      <a href="/credits"> <font color="Black"> credits </a> 
 	  	    </small> </h1>
 	  	</div>
 	</div>
