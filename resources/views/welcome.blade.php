@@ -5,9 +5,7 @@
 @stop
 
 @section('content')
-		<link rel="stylesheet" href="site/public/css/normalize.css">
-        <link rel="stylesheet" href="site/public/css/main.css">
-        <script src="site/public/js/modernizr-2.7.1.min.js"></script>
+
 		<div id="preload">
 	       	<img src="site/public/img/SF1.jpg">
 	       	<img src="site/public/img/SF2.jpg">
@@ -21,7 +19,7 @@
 	        	<div class="bcg">
 		        	<div class="hsContainer">
 			    		<div class="hsContent">
-				    		<h2>My name is Jorge P. Mendoza</h2>
+				    		<h2>Welcome to my website</h2>
 			    		</div>
 		        	</div>
 	        	</div>
@@ -41,7 +39,7 @@
 				<div class="bcg">
 			    	<div class="hsContainer">
 		    			<div class="hsContent">
-				    		<h2>Welcome to my website!</h2>
+				    		<h2>This website is my portfolio and playground for my projects</h2>
 			    		</div>
 			    	</div>
 			    	
