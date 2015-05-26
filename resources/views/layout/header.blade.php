@@ -1,6 +1,3 @@
-
-
-
 <div class="page-header" align="center">
 	<div class="row">
 		<div class="col-md-12">

@@ -6,9 +6,12 @@
         <title>{{$title}}</title>
 
             <!-- Fonts -->
+
+
+        
+            
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
-        <link rel="stylesheet" href="site/public/css/normalize.css">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  
 
@@ -17,6 +20,9 @@
         <script src="site/public/js/imagesloaded.js"></script>
         <script src="site/public/js/skrollr.js"></script>
         <script src="site/public/js/_main.js"></script>
+     
+
+     <link rel="stylesheet" href="site/public/css/normalize.css">
         <link rel="stylesheet" href="site/public/css/main.css">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
