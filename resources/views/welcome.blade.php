@@ -9,9 +9,9 @@
         <link rel="stylesheet" href="site/public/css/main.css">
         <script src="site/public/js/modernizr-2.7.1.min.js"></script>
 		<div id="preload">
-	       	<img src="site/public/img/bcg_slide-1.jpg">
-	       	<img src="site/public/img/bcg_slide-2.jpg">
-	       	<img src="site/public/img/bcg_slide-3.jpg">
+	       	<img src="site/public/img/SF1.jpg">
+	       	<img src="site/public/img/SF2.jpg">
+	       	<img src="site/public/img/SF3.jpg">
 	       	<img src="site/public/img/masseffectjorge.jpg">
        	</div>
        	
