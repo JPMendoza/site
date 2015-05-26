@@ -29,7 +29,7 @@ Route::get('credits', "WelcomeController@credits");
 
 Route::get('home', 'HomeController@index');
 
-Route::controllers([
+/*Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
-]);
+]);*/
