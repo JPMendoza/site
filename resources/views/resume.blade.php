@@ -16,7 +16,7 @@
 	    margin-bottom: 0px;
 	}
 	li {
-		
+
 	}
 </style>
 
@@ -45,8 +45,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			To grow as a programmer by learning as many new types of skills sets related to the Computer Science field to be a well rounded 
-			Software Engineer
+			To grow as a programmer by learning new types of skill sets related to the Computer Science field
 		</div>
 	</div>
 	<div class="row">
