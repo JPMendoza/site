@@ -15,8 +15,8 @@
 	ul {
 	    margin-bottom: 0px;
 	}
-	li {
-
+	body {
+		font-size: 20px;
 	}
 </style>
 
@@ -57,10 +57,30 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			Java, JavaScript, C, C++, C#, HTML, SQL, JDBC, PHP, CSS, Python, Ruby, jQuery, Vim, Eclipse, Microsoft
-			Visual Studio, Bash, Yii, REST, Junit, XML, CSV, LATEX, SVN, Git, Mercurial, UNIX, Linux, Jira, Agile
-			Development
+			<ul>
+				<li>Programming Languages / Mark up</li>
+			</ul>
+				<span style="margin-left: 7%;margin-right: 10%;"> Java, JavaScript, C, C++, C#, PHP, Python, Ruby, Bash, Scala, CSS, MySQL, OracleSQL / HTML, CSV, XML, LaTex
+				</span>
+			<ul>
+				<li>IDEs/Text Editor</li>
+			</ul>
+				<span style="margin-left: 7%;margin-right: 10%;"> Eclipse, Microsoft Visual Studio, Sublime, Vim </span>
+			<ul>
+				<li>Frameworks/Libraries</li>
+			</ul>
+				<span style="margin-left: 7%;margin-right: 10%;"> Junit, Handlebars, Backbone, Play framework, Yii, JDBC / jQuery </span>
+			<ul>
+				<li>Version Control</li>
+			</ul>
+				<span style="margin-left: 7%;margin-right: 10%;"> SVN, Mercurial, Git </span>
+			<ul>
+				<li>Other Skills</li>
+			</ul>
+			  	<span style="margin-left: 7%;margin-right: 10%;"> REST, Agile Development, Jria </span>
+			
 		</div>
+
 	</div>
 	<div style="background-color: #D3D3D3;" class="row">
 		<div class="col-md-6">
@@ -148,7 +168,7 @@
 			<ul>
 				<li> 
 					California Polytechnic State University <br>
-					Bachelor of Science in Computer Science
+					Bachelor of Science in <i> <b>Computer Science </b> </i>
 				</li>
 			</ul>
 			
