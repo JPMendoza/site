@@ -1,6 +1,6 @@
 <div class="page-header" align="center">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-xs-12">
 	  		<h1> <a href="/"> <font color="Black"> Jorge P. Mendoza <font> </a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 	  	    <small aligh="bottom">
 	  	      <a href="/resume"> <font color="Black"> Resume </a>  &nbsp;&nbsp;&nbsp; 
