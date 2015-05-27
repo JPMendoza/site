@@ -9,7 +9,7 @@
 	  	      <a href="/resume"> <font color="white"> Resume </a>  &nbsp;&nbsp;&nbsp; 
 	  	      <a href="/projects"><font color="white"> Projects </a>  &nbsp;&nbsp;&nbsp;
 	  	      <a href="/about"> <font color="white"> About </a>  &nbsp;&nbsp;&nbsp;
-	  	      <a href="/credits"> <font color="white"> credits </a> 
+	  	      <a href="/credits"> <font color="white"> Credits </a> 
 	  	    </small> </h1>
 	  	</div>
 	</div>
