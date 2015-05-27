@@ -1192,20 +1192,20 @@ a.bg-danger:hover {
 }
 .page-header {
   padding-bottom: 0px;
-  margin: 0px 0px 20px;
-  border-bottom: 2px solid black;
+  margin: 0px 0px 0px;
+  border-bottom: 1px solid black;
 }
 
 .page-header-landing {
   padding-bottom: 0px;
-  margin: 0px 0px 20px;
+  margin: 0px 0px 0px;
 
 }
 
 .page-footer {
   padding-top: 0px;
   margin: 0px 0px 0px 0px;
-  border-top: 2px solid black;
+  border-top: 1px solid black;
 }
 ul,
 ol {
