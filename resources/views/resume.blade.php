@@ -4,12 +4,27 @@
 {{ $title }}
 @stop
 
+
+
+
+
+
 @section('content')
+
+<style>
+	ul {
+	    margin-bottom: 0px;
+	}
+	li {
+		
+	}
+</style>
+
 <div class="container">
-	<div align="center"> <h1> Jorge Peradilla Mendoza </h1></div>
+	<!--<div align="center"> <h1> Jorge Peradilla Mendoza </h1></div> -->
 	<div class="row">
 		<div class="col-xs-6">
-			San Francisco, California
+			San Francisco, California <br>
 		</div>
 		<div align="right" class="col-md-6">
 			https://github.com/JPMendoza
