@@ -17,6 +17,13 @@
 	}
 	body {
 		font-size: 20px;
+		font-weight: 350;
+	}
+	.titles {
+		margin-left: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px
+
 	}
 </style>
 
@@ -38,8 +45,8 @@
 			https://linkedin.com/in/jorgepmendoza
 		</div>
 	</div>
-	<div style="background-color: #D3D3D3;" class="row">
-		<div class="col-xs-6">
+	<div style="background-color: #D3D3D3;" class="row ">
+		<div  class="col-xs-6 titles">
 			<b>Objective</b>
 		</div>
 	</div>
@@ -51,7 +58,7 @@
 	<div class="row">
 	</div>
 	<div style="background-color: #D3D3D3;" class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 titles">
 			<b>Skills</b>
 		</div>
 	</div>
@@ -83,7 +90,7 @@
 
 	</div>
 	<div style="background-color: #D3D3D3;" class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 titles">
 			<b>Work Experience</b>
 		</div>
 	</div>
@@ -149,7 +156,7 @@
 	</div>
 	
 	<div style="background-color: #D3D3D3;" class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 titles">
 			<b>Projects</b>
 		</div>
 	</div>
@@ -159,7 +166,7 @@
 		</div>
 	</div>
 	<div style="background-color: #D3D3D3;" class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 titles">
 			<b>Education</b>
 		</div>
 	</div>
@@ -168,7 +175,7 @@
 			<ul>
 				<li> 
 					California Polytechnic State University <br>
-					Bachelor of Science in <i> <b>Computer Science </b> </i>
+					Bachelor of Science in <b>Computer Science </b>
 				</li>
 			</ul>
 			
