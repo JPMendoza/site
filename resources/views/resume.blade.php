@@ -45,7 +45,7 @@
 			https://linkedin.com/in/jorgepmendoza
 		</div>
 	</div>
-	<div style="background-color: #D3D3D3;" class="row ">
+	<!--<div style="background-color: #D3D3D3;" class="row ">
 		<div  class="col-xs-6 titles">
 			<b>Objective</b>
 		</div>
@@ -54,7 +54,7 @@
 		<div class="col-md-12">
 			To grow as a programmer by learning new types of skill sets related to the Computer Science field
 		</div>
-	</div>
+	</div> -->
 	<div class="row">
 	</div>
 	<div style="background-color: #D3D3D3;" class="row">
@@ -65,9 +65,9 @@
 	<div class="row">
 		<div class="col-md-12">
 			<ul>
-				<li>Programming Languages / Mark up</li>
+				<li>Programming Languages/Mark up</li>
 			</ul>
-				<span style="margin-left: 7%;margin-right: 10%;"> Java, JavaScript, C, C++, C#, PHP, Python, Ruby, Bash, Scala, CSS, MySQL, OracleSQL / HTML, CSV, XML, LaTex
+				<span style="margin-left: 7%;margin-right: 10%;"> Java, JavaScript, C, C++, C#, PHP, Python, Ruby, Bash, Scala, CSS, MySQL, OracleSQL/HTML, CSV, XML, LaTex
 				</span>
 			<ul>
 				<li>IDEs/Text Editor</li>
@@ -76,7 +76,7 @@
 			<ul>
 				<li>Frameworks/Libraries</li>
 			</ul>
-				<span style="margin-left: 7%;margin-right: 10%;"> Junit, Handlebars, Backbone, Play framework, Yii, JDBC / jQuery </span>
+				<span style="margin-left: 7%;margin-right: 10%;"> Junit, Handlebars, Backbone, Play framework, Yii, JDBC/jQuery </span>
 			<ul>
 				<li>Version Control</li>
 			</ul>
@@ -155,7 +155,7 @@
 		</div>
 	</div>
 	
-	<div style="background-color: #D3D3D3;" class="row">
+	<!--<div style="background-color: #D3D3D3;" class="row">
 		<div class="col-md-6 titles">
 			<b>Projects</b>
 		</div>
@@ -164,7 +164,7 @@
 		<div class="col-md-12">
 			See <a href="/projects">project page</a> 
 		</div>
-	</div>
+	</div> -->
 	<div style="background-color: #D3D3D3;" class="row">
 		<div class="col-md-6 titles">
 			<b>Education</b>
