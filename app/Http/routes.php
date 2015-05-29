@@ -20,11 +20,16 @@
 |
 */
 
+
+//foutes for main page
 Route::get('/', 'WelcomeController@index');
 Route::get('resume',"WelcomeController@resume");
 Route::get('projects', "WelcomeController@projects");
 Route::get('about', "WelcomeController@about");
 Route::get('credits', "WelcomeController@credits");
+
+//
+
 
 
 Route::get('home', 'HomeController@index');

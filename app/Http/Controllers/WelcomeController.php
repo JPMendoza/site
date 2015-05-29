@@ -65,7 +65,7 @@ class WelcomeController extends Controller {
 		$title = "Jorge P Mendoza's projects";
 		
 
-		return view('ComingSoon')->with([
+		return view('projects')->with([
 			'title' => $title,
 			'body'=> $this->body
 			]);
