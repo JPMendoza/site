@@ -23,6 +23,10 @@
 		margin-bottom: 5px
 
 	}
+	.skills {
+		margin-left: 7%;
+		margin-right: 10%;
+	}
 </style>
 
 <div class="container">
@@ -66,24 +70,24 @@
 			<ul>
 				<li>Programming Languages/Mark up</li>
 			</ul>
-				<span style="margin-left: 7%;margin-right: 10%;"> Java, JavaScript, C, C++, C#, PHP, Python, Ruby, Bash, Scala, CSS, MySQL, OracleSQL/HTML, CSV, XML, LaTex
+				<span class="skills"> Java, JavaScript, C, C++, C#, PHP, Python, Ruby, Bash, Scala, CSS, MySQL, OracleSQL/HTML, CSV, XML, LaTex
 				</span>
 			<ul>
 				<li>IDEs/Text Editor</li>
 			</ul>
-				<span style="margin-left: 7%;margin-right: 10%;"> Eclipse, Microsoft Visual Studio, Sublime, Vim </span>
+				<span class="skills"> Eclipse, Microsoft Visual Studio, Sublime, Vim </span>
 			<ul>
 				<li>Frameworks/Libraries</li>
 			</ul>
-				<span style="margin-left: 7%;margin-right: 10%;"> Junit, Handlebars, Backbone, Play framework, Yii, JDBC/jQuery </span>
+				<span class="skills"> Junit, Handlebars, Backbone, Play framework, Yii, Laravel, JDBC/jQuery </span>
 			<ul>
 				<li>Version Control</li>
 			</ul>
-				<span style="margin-left: 7%;margin-right: 10%;"> SVN, Mercurial, Git </span>
+				<span class="skills"> SVN, Mercurial, Git </span>
 			<ul>
 				<li>Other Skills</li>
 			</ul>
-			  	<span style="margin-left: 7%;margin-right: 10%;"> REST, Agile Development, Jria </span>
+			  	<span class="skills"> REST, Agile Development, Jria </span>
 			
 		</div>
 
