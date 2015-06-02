@@ -1,6 +1,3 @@
 /vendor
 /node_modules
-composer.lock
-composer.json
-error_log
 .env
