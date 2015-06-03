@@ -5,7 +5,7 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-use App\Proverbs;
+use App\proverbs;
 
 class ProverbController extends Controller {
 
