@@ -30,6 +30,12 @@ Route::get('credits', "WelcomeController@credits");
 
 //
 
+route::get('MixedProverbs', "ProverbController@index");
+
+route::group(['prefix' => 'api/v1'], function () {
+
+	route::get('proverb', "ProverbController@getProverb");
+});
 
 
 Route::get('home', 'HomeController@index');
