@@ -12,7 +12,7 @@ Click the button for new proverbs!
  <div>&nbsp;</div>
  <div align="center">
 
- 	<input id="clickMe" type="button" value="Mix Proverbs!" onclick="getProverb();" >
+ 	<input id="clickMe" type="button" value="Mix it up!" onclick="getProverb();" >
  	
 </div>
 <div>&nbsp;</div>
