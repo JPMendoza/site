@@ -7,12 +7,15 @@
 @section('content')
 <div align="center"> <h1> Mixed Proverbs </h1></div>
 <div id="mixed" align="center"> 
-&nbsp;
+Click the button to for new proverbs!
  </div>
+ <div>&nbsp;</div>
  <div align="center">
- 	<br>
- 	<input id="clickMe" type="button" value="clickme" onclick="getProverb();" >
+
+ 	<input id="clickMe" type="button" value="Mix Proverbs!" onclick="getProverb();" >
+ 	
 </div>
+<div>&nbsp;</div>
 
 
 <script>
