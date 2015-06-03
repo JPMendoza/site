@@ -7,7 +7,7 @@
 @section('content')
 <div align="center"> <h1> Mixed Proverbs </h1></div>
 <div id="mixed" align="center"> 
-
+&nbsp;
  </div>
  <div align="center">
  	<input id="clickMe" type="button" value="clickme" onclick="getProverb();" >
