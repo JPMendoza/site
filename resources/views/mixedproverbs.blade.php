@@ -10,6 +10,7 @@
 &nbsp;
  </div>
  <div align="center">
+ 	<br>
  	<input id="clickMe" type="button" value="clickme" onclick="getProverb();" >
 </div>
 
