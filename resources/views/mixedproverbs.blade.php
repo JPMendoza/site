@@ -7,7 +7,7 @@
 @section('content')
 <div align="center"> <h1> Mixed Sayings </h1></div>
 <div class="row">
-	<div class="col-xs-4">
+	<div class="col-md-4">
 		<div align="center" > 
 			<div id="proverbAA"> Saying A, Part A </div>
 			<div>+</div>
@@ -26,7 +26,7 @@
 		 	
 		</div>
 	</div>
-	<div class="col-xs-4">
+	<div class="col-md-4">
 		<div align="center" > 
 			<div id="proverbA"> Saying A, Part A </div>
 			<div>+</div>
@@ -45,7 +45,7 @@
 		 	
 		</div>
 	</div>
-	<div class="col-xs-4">
+	<div class="col-md-4">
 		<div align="center" > 
 			<div id="proverbAB"> Saying A, Part B </div>
 			<div>+</div>
