@@ -5,15 +5,27 @@
 @stop
 
 @section('content')
+
+
+<script type="text/javascript" src="{{ asset('/site/public/js/ZeroClipboard.min.js') }}"></script>
+
+<style>
+.result {
+	font-size: large ;
+}
+</style>
 <div align="center"> <h1> Mixed Sayings </h1></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
 <div class="row">
 	<div class="col-md-4">
+
 		<div align="center" > 
 			<div ><span style="font-weight:bold;" id="SA1A"> Saying one part A</span><span id="SA1B">, Saying one part B </span></div>
-			<div>+</div>
+			<div><b>+</b></div>
 			<div> <span style="font-weight:bold;" id="SA2A"> Saying two part A</span><span  id="SA2B">, Saying two part B </span></div>
-			<div>=</div>
-			<div id="mixedA" data-first-id="" data-second-id=""> Saying one part A + Saying two part A </div>
+			<div><b>=</b></div>
+			<div class="result" id="mixedA" class="clip_button" data-clipboard-text="Copy Me!" data-first-id="" data-second-id=""> Saying one part A + Saying two part A </div>
 
 
 
@@ -23,6 +35,7 @@
 
 		 	<input id="clickMe" class="btn btn-primary" type="button" value="Mix it up!" onclick="getProverb('a');" >
 		 	<input id="YES" class="btn btn-success" type="button" value="Switch!" onclick="swap('a');" >
+		 	<input id="YES" class="btn btn-default" type="button" value="Copy it!" onclick="copyToClipboard('mixedA');" >
 		 	
 		</div>
 	</div>
@@ -32,7 +45,7 @@
 			<div>+</div>
 			<div> <span  id="S2A"> Saying two part A, </span><span style="font-weight:bold;" id="S2B"> Saying two part B </span></div>
 			<div>=</div>
-			<div id="mixedPrime" data-first-id="" data-second-id=""> Saying one part A + Saying two part B</div>
+			<div class="result" id="mixedPrime" data-first-id="" data-second-id=""> Saying one part A + Saying two part B</div>
 
 
 
@@ -51,7 +64,7 @@
 			<div>+</div>
 			<div> <span id="SB2A"> Saying two part A, </span><span style="font-weight:bold;" id="SB2B"> Saying two part B </span></div>
 			<div>=</div>
-			<div id="mixedB" data-first-id="" data-second-id=""> Saying one part B + Saying two part B </div>
+			<div class="result" id="mixedB" data-first-id="" data-second-id=""> Saying one part B + Saying two part B </div>
 
 
 
@@ -72,6 +85,7 @@
 
 
 <script>
+
 function getProverb(type) {
 	 $.get("/api/v1/proverb", function (data) {
 
@@ -218,6 +232,15 @@ function swap(type) {
 
 
 }
+function copyToClipboard(id) {
+
+	console.log(id);
+	var client = new ZeroClipboard( $("#"+id),{
+		moviePath: "{{asset('/site/public/js/ZeroClipboard.swf')}}"
+	} );//$("#"+id).text() );
+
+}
+
 </script>
 
 @stop
