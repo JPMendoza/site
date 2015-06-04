@@ -21,8 +21,8 @@
 		 <div>&nbsp;</div>
 		 <div align="center">
 
-		 	<input id="clickMe" type="button" value="Mix it up!" onclick="getProverb('a');" >
-		 	<input id="YES" type="button" value="Switch!" onclick="swap('a');" >
+		 	<input id="clickMe" class="btn btn-primary" type="button" value="Mix it up!" onclick="getProverb('a');" >
+		 	<input id="YES" class="btn btn-success" type="button" value="Switch!" onclick="swap('a');" >
 		 	
 		</div>
 	</div>
@@ -40,8 +40,8 @@
 		 <div>&nbsp;</div>
 		 <div align="center">
 
-		 	<input id="clickMe" type="button" value="Mix it up!" onclick="getProverb('prime');" >
-		 	<input id="YES" type="button" value="Switch!" onclick="swap('prime');" >
+		 	<input id="clickMe" class="btn btn-primary" type="button" value="Mix it up!" onclick="getProverb('prime');" >
+		 	<input id="YES"  class="btn btn-success" type="button" value="Switch!" onclick="swap('prime');" >
 		 	
 		</div>
 	</div>
@@ -59,8 +59,8 @@
 		 <div>&nbsp;</div>
 		 <div align="center">
 
-		 	<input id="clickMe" type="button" value="Mix it up!" onclick="getProverb('b');" >
-		 	<input id="YES" type="button" value="Switch!" onclick="swap('b');" >
+		 	<input id="clickMe" class="btn btn-primary" type="button" value="Mix it up!" onclick="getProverb('b');" >
+		 	<input id="YES" class="btn btn-success" type="button" value="Switch!" onclick="swap('b');" >
 		 	
 		</div>
 	</div>
