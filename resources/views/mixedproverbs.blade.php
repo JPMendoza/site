@@ -82,7 +82,7 @@ function getProverb(type) {
 			 	$("#mixedPrime").attr("data-first-id", data[0]["id"]);
 			 	$("#mixedPrime").attr("data-second-id", data[1]["id"]);
 			 	
-			 	console.log(data[1]["id"]);
+
 
 			 	$("#proverbA").html(data[0]["proverb"]);
 			 	$("#proverbB").html(data[1]["proverb"]);
@@ -93,7 +93,7 @@ function getProverb(type) {
 				$("#mixedA").attr("data-first-id", data[0]["id"]);
 			 	$("#mixedA").attr("data-second-id", data[1]["id"]);
 			 	
-			 	console.log(data[1]["id"]);
+
 
 			 	$("#proverbAA").html(data[0]["proverb"]);
 			 	$("#proverbBA").html(data[1]["proverb"]);
@@ -104,7 +104,7 @@ function getProverb(type) {
 				$("#mixedB").attr("data-first-id", data[0]["id"]);
 			 	$("#mixedB").attr("data-second-id", data[1]["id"]);
 			 	
-			 	console.log(data[1]["id"]);
+
 
 			 	$("#proverbAB").html(data[0]["proverb"]);
 			 	$("#proverbBB").html(data[1]["proverb"]);
@@ -121,7 +121,7 @@ function swap(type) {
 			var a = $("#mixedPrime").attr("data-first-id");
 			var b = $("#mixedPrime").attr("data-second-id");
 
-			console.log(a);
+
 
 			if (a || b) {
 				$.get("/api/v1/proverb/"+ b + "/" + a , function (data) {
@@ -149,7 +149,7 @@ function swap(type) {
 			var a = $("#mixedA").attr("data-first-id");
 			var b = $("#mixedA").attr("data-second-id");
 
-			console.log(a);
+
 
 			if (a || b) {
 				$.get("/api/v1/proverb/"+ b + "/" + a , function (data) {
@@ -177,7 +177,7 @@ function swap(type) {
 			var a = $("#mixedB").attr("data-first-id");
 			var b = $("#mixedB").attr("data-second-id");
 
-			console.log(a);
+
 
 			if (a || b) {
 				$.get("/api/v1/proverb/"+ b + "/" + a , function (data) {
@@ -203,7 +203,7 @@ function swap(type) {
 			break;
 	}
 
-	//console.log(a['firstId']);
+
 }
 </script>
 
