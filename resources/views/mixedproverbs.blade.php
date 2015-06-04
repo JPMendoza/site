@@ -65,7 +65,7 @@
 		</div>
 	</div>
 	<div>&nbsp;</div>
-	<div align="center"> Click 'Mix It Up!' to mash up something up.<br>
+	<div align="center"> Click 'Mix It Up!' to mash up something.<br>
 							 Click 'Switch!' to reverse the mash up! </div>
 </div>
 <div>&nbsp;</div>
