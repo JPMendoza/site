@@ -9,11 +9,11 @@
 <div class="row">
 	<div class="col-md-4">
 		<div align="center" > 
-			<div id="proverbAA"> Saying A, Part A </div>
+			<div ><span style="font-weight:bold;" id="SA1A"> Saying one part A</span><span id="SA1B">, Saying one part B </span></div>
 			<div>+</div>
-			<div id="proverbBA"> Saying B, Part A </div>
+			<div> <span style="font-weight:bold;" id="SA2A"> Saying two part A</span><span  id="SA2B">, Saying two part B </span></div>
 			<div>=</div>
-			<div id="mixedA" data-first-id="" data-second-id=""> AA + BA </div>
+			<div id="mixedA" data-first-id="" data-second-id=""> Saying one part A + Saying two part A </div>
 
 
 
@@ -28,11 +28,11 @@
 	</div>
 	<div class="col-md-4">
 		<div align="center" > 
-			<div id="proverbA"> Saying A, Part A </div>
+			<div ><span style="font-weight:bold;" id="S1A"> Saying one part A</span><span id="S1B">, Saying one part B </span></div>
 			<div>+</div>
-			<div id="proverbB"> Saying B, Part B </div>
+			<div> <span  id="S2A"> Saying two part A, </span><span style="font-weight:bold;" id="S2B"> Saying two part B </span></div>
 			<div>=</div>
-			<div id="mixedPrime" data-first-id="" data-second-id=""> AA + BB</div>
+			<div id="mixedPrime" data-first-id="" data-second-id=""> Saying one part A + Saying two part B</div>
 
 
 
@@ -47,11 +47,11 @@
 	</div>
 	<div class="col-md-4">
 		<div align="center" > 
-			<div id="proverbAB"> Saying A, Part B </div>
+			<div ><span id="SB1A"> Saying one part A, </span><span style="font-weight:bold;" id="SB1B"> Saying one part B </span></div>
 			<div>+</div>
-			<div id="proverbBB"> Saying B, Part B </div>
+			<div> <span id="SB2A"> Saying two part A, </span><span style="font-weight:bold;" id="SB2B"> Saying two part B </span></div>
 			<div>=</div>
-			<div id="mixedB" data-first-id="" data-second-id=""> AB + BB </div>
+			<div id="mixedB" data-first-id="" data-second-id=""> Saying one part B + Saying two part B </div>
 
 
 
@@ -84,8 +84,11 @@ function getProverb(type) {
 			 	
 
 
-			 	$("#proverbA").html(data[0]["proverb"]);
-			 	$("#proverbB").html(data[1]["proverb"]);
+			 	$("#S1A").html(data[0]["partA"] + " ");
+			 	$("#S1B").html(data[0]["partB"]);
+			 	$("#S2A").html(data[1]["partA"] + " ");
+			 	$("#S2B").html(data[1]["partB"]);
+
 
 				$("#mixedPrime").html(data[0]["partA"] + " " + data[1]["partB"]);
 				break;
@@ -95,8 +98,10 @@ function getProverb(type) {
 			 	
 
 
-			 	$("#proverbAA").html(data[0]["proverb"]);
-			 	$("#proverbBA").html(data[1]["proverb"]);
+			 	$("#SA1A").html(data[0]["partA"] + " ");
+			 	$("#SA1B").html(data[0]["partB"]);
+			 	$("#SA2A").html(data[1]["partA"] + " ");
+			 	$("#SA2B").html(data[1]["partB"]);
 
 				$("#mixedA").html(data[0]["partA"] + " " + data[1]["partA"]);
 				break;
@@ -106,8 +111,10 @@ function getProverb(type) {
 			 	
 
 
-			 	$("#proverbAB").html(data[0]["proverb"]);
-			 	$("#proverbBB").html(data[1]["proverb"]);
+			 	$("#SB1A").html(data[0]["partA"] + " ") ;
+			 	$("#SB1B").html(data[0]["partB"]);
+			 	$("#SB2A").html(data[1]["partA"] + " ");
+			 	$("#SB2B").html(data[1]["partB"]);
 
 				$("#mixedB").html(data[0]["partB"] + " " + data[1]["partB"]);
 				break;
@@ -131,8 +138,10 @@ function swap(type) {
 					 	$("#mixedPrime").attr("data-first-id", data[0]["id"]);
 					 	$("#mixedPrime").attr("data-second-id", data[1]["id"]);
 					 	
-					 	$("#proverbA").html(data[0]["proverb"]);
-					 	$("#proverbB").html(data[1]["proverb"]);
+					 	$("#S1A").html(data[0]["partA"] + " ");
+					 	$("#S1B").html(data[0]["partB"]);
+					 	$("#S2A").html(data[1]["partA"] + " ");
+					 	$("#S2B").html(data[1]["partB"]);
 
 						$("#mixedPrime").html(data[0]["partA"] + " " + data[1]["partB"]);
 
@@ -159,8 +168,10 @@ function swap(type) {
 					 	$("#mixedA").attr("data-first-id", data[0]["id"]);
 					 	$("#mixedA").attr("data-second-id", data[1]["id"]);
 					 	
-					 	$("#proverbAA").html(data[0]["proverb"]);
-					 	$("#proverbBA").html(data[1]["proverb"]);
+					 	$("#SA1A").html(data[0]["partA"] + " ");
+					 	$("#SA1B").html(data[0]["partB"]);
+					 	$("#SA2A").html(data[1]["partA"] + " ");
+					 	$("#SA2B").html(data[1]["partB"]);
 
 						$("#mixedA").html(data[0]["partA"] + " " + data[1]["partB"]);
 
@@ -187,8 +198,10 @@ function swap(type) {
 					 	$("#mixedB").attr("data-first-id", data[0]["id"]);
 					 	$("#mixedB").attr("data-second-id", data[1]["id"]);
 					 	
-					 	$("#proverbAB").html(data[0]["proverb"]);
-					 	$("#proverbBB").html(data[1]["proverb"]);
+					 	$("#SB1A").html(data[0]["partA"] + " ");
+					 	$("#SB1B").html(data[0]["partB"]);
+					 	$("#SB2A").html(data[1]["partA"] + " ");
+					 	$("#SB2B").html(data[1]["partB"]);
 
 						$("#mixedB").html(data[0]["partA"] + " " + data[1]["partB"]);
 
