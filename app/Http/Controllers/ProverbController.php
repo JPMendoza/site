@@ -26,8 +26,20 @@ class ProverbController extends Controller {
 	public function getProverb()
 	{
 		$a = rand(1, Proverbs::count());
+
 		$b = rand(1, Proverbs::count());
-		$proverb = Proverbs::Find($a)->partA . " " . Proverbs::Find($b)->partB;
+		while ($a == $b)
+			$b = rand(1, Proverbs::count());
+
+		$proverb = [Proverbs::Find($a), Proverbs::Find($b)];
+
+		return $proverb;
+
+	}
+
+	public function getProverbs($idA, $idB)
+	{
+		$proverb = [Proverbs::Find($idA), Proverbs::Find($idB)];
 
 		return $proverb;
 

@@ -30,11 +30,12 @@ Route::get('credits', "WelcomeController@credits");
 
 //
 
-route::get('MixedProverbs', "ProverbController@index");
+route::get('MixedSayings', "ProverbController@index");
 
 route::group(['prefix' => 'api/v1'], function () {
 
 	route::get('proverb', "ProverbController@getProverb");
+	route::get('proverb/{idA}/{idB}', "ProverbController@getProverbs");
 });
 
 
