@@ -10,7 +10,7 @@
 
 <style>
 .result {
-	font-size: large ;
+	font-weight:bold;
 }
 </style>
 <div align="center"> <h1> Mixed Sayings </h1></div>
@@ -77,6 +77,7 @@
 		</div>
 	</div>
 	<div>&nbsp;</div>
+		<div>&nbsp;</div>
 	<div align="center"> Click 'Mix It Up!' to mash up something.<br>
 							 Click 'Switch!' to reverse the mash up! </div>
 </div>
