@@ -34,7 +34,7 @@
 
 		 	<input id="clickMe" class="btn btn-primary" type="button" value="Mix it up!" onclick="getProverb('a');" >
 		 	<input id="YES" class="btn btn-success" type="button" value="Switch!" onclick="swap('a');" >
-		 	<input id="YES" class="btn btn-default" type="button" value="Copy it!" onclick="copyToClipboard('mixedA');" >
+
 		 	
 		</div>
 	</div>
@@ -231,25 +231,8 @@ function swap(type) {
 
 
 }
-function copyToClipboard(id) {
-
-	console.log(id);
-	var client = new ZeroClipboard( $("#"+id),{
-		moviePath: "{{asset('/site/public/js/ZeroClipboard.swf')}}"
-	} );//$("#"+id).text() );
-	client.on("ready", function(e) {
-		alert(e);
-	});
-	client.on('copy', function(e) {
-		alert(e);
-	});
-	client.on('error', function(e) {
-		alert(e);
-	});
-	console.log(client);	
-}
 
 </script>
-<script type="text/javascript" src="{{ asset('/site/public/js/ZeroClipboard.min.js') }}"></script>
+
 
 @stop
