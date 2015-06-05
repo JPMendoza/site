@@ -7,7 +7,6 @@
 @section('content')
 
 
-<script type="text/javascript" src="{{ asset('/site/public/js/ZeroClipboard.min.js') }}"></script>
 
 <style>
 .result {
@@ -238,9 +237,19 @@ function copyToClipboard(id) {
 	var client = new ZeroClipboard( $("#"+id),{
 		moviePath: "{{asset('/site/public/js/ZeroClipboard.swf')}}"
 	} );//$("#"+id).text() );
-
+	client.on("ready", function(e) {
+		alert(e);
+	});
+	client.on('copy', function(e) {
+		alert(e);
+	});
+	client.on('error', function(e) {
+		alert(e);
+	});
+	console.log(client);	
 }
 
 </script>
+<script type="text/javascript" src="{{ asset('/site/public/js/ZeroClipboard.min.js') }}"></script>
 
 @stop
