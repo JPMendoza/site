@@ -6,7 +6,7 @@
 	  	      <a href="/resume"> <font color="Black"> Resume </a>  &nbsp;&nbsp;&nbsp; 
 	  	      <a href="/projects"><font color="Black"> Projects </a>  &nbsp;&nbsp;&nbsp;
 	  	      <a href="/about"> <font color="Black"> About </a>  &nbsp;&nbsp;&nbsp;
-	  	      <a href="/credits"> <font color="Black"> Credits </a> 
+
 	  	    </small> </h1>
 	  	</div>
 	</div>
