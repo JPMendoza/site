@@ -30,18 +30,34 @@
 		</div>
 	</div>
 	<div class="row">
-		<div align="center" class=" container col-xs-4">
-			<a href="{{ asset('/site/public/projects/alienabduction/alienabduction.html') }}" >Alien Abduction</a><br>
-			*Chrome doesn't support unity anymore
+		<div align="center" class=" container col-md-4">
+			<a href="{{ asset('/site/public/projects/alienabduction/alienabduction.html') }}" >Alien Abduction<br>
+				<img src="{{asset('/site/public/img/alien.png')}}" height="150" width="200"></a> <br>
+				*Chrome doesn't support unity 
+			
 		</div>
 		<div align="center" class="container col-md-4">
-			<a href="{{ asset('/site/public/projects/heart4u/heart4u.html') }}" >Heart4u</a>
-
+			<a href="{{ asset('/site/public/projects/heart4u/heart4u.html') }}"> Heart4u <br> 
+				<img src="{{asset('/site/public/img/heart4u.png')}}" height="150" width="200">
+			</a>
 		</div>
 		<div align="center" class="container col-md-4">
-			<a href="{{ asset('/site/public/projects/cubeclicker/cubeclicker.html') }}" >CubeClicker</a>
+			<a href="{{ asset('/site/public/projects/cubeclicker/cubeclicker.html') }}" >CubeClicker <br> 
+				<img src="{{asset('/site/public/img/cube.png')}}" height="150" width="200">
+			</a>
 		</div>
 	</div>
+	<div style="background-color: #D3D3D3; text-align:center;" class="row">
+		<div class="col-md-12 titles">
+			<b>Other</b>
+		</div>
+	</div>
+	<div align="center" class=" container col-md-4">
+			<a href="/MixedSayings" >Mixed Sayings<br>
+				<img src="{{asset('/site/public/img/mixedsaying.png')}}" height="150" width="200"></a> <br>
+				*Chrome doesn't support unity 
+			
+		</div>
 
 </div>
 
