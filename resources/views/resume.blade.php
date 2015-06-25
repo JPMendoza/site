@@ -37,7 +37,7 @@
 			San Francisco, California <br>
 		</div>
 		<div align="right" class="col-md-6">
-			https://github.com/JPMendoza
+			<a href="https://github.com/JPMendoza"> https://github.com/JPMendoza</a>
 		</div>
 	</div>
 	<div class="row">
@@ -45,7 +45,7 @@
 			jorge.mendoza415@gmail.com
 		</div>
 		<div align="right" class="col-xs-6">
-			https://linkedin.com/in/jorgepmendoza
+			<a href="https://linkedin.com/in/jorgepmendoza">https://linkedin.com/in/jorgepmendoza </a>
 		</div>
 	</div>
 	<!--<div style="background-color: #D3D3D3;" class="row ">
