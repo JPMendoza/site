@@ -43,7 +43,7 @@ class WelcomeController extends Controller {
 	public function about() {
 		$title = "About Jorge P Mendoza";
 
-		return view('ComingSoon')->with([
+		return view('about')->with([
 			'title' => $title,
 			'body'=> $this->body
 			]);
@@ -70,16 +70,5 @@ class WelcomeController extends Controller {
 			'body'=> $this->body
 			]);
 	}
-
-	public function credits() {
-		$title = "credits";
-		
-
-		return view('ComingSoon')->with([
-			'title' => $title,
-			'body'=> $this->body
-			]);
-	}
-
 
 }
