@@ -45,7 +45,7 @@
 		        			<li>Origin: jpmendoza415 </li>
 		        			<li>Battle.net: snipsuper </li>
 	        			</ul>
-	        			
+
 	        		<li>Xbox: pipnoi415 </li>
 	        		<li>PlayStation: snipsuper </li>
 	        		<li>Nintendo: 4742-5983-3401 </li>

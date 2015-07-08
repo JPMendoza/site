@@ -1,4 +1,5 @@
-<?php
+<?php 
+
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,7 @@
 */
 
 
+
 //foutes for main page
 Route::get('/', 'WelcomeController@index');
 Route::get('resume',"WelcomeController@resume");
@@ -38,10 +40,18 @@ route::group(['prefix' => 'api/v1'], function () {
 	route::get('proverb/{idA}/{idB}', "ProverbController@getProverbs");
 });
 
+route::group(['prefix' => 'games'], function () {
+	route::get('/', function (){
+		 return view()->file(url('/site/public/projects/games/alienabduction/alienabduction.html'));
+	});
+
+});
+
 
 Route::get('home', 'HomeController@index');
 
-/*Route::controllers([
+
+Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
-]);*/
+]);
