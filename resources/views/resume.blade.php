@@ -81,7 +81,7 @@
 				
 			<ul>
 				<li>Frameworks/Libraries</li>
-				<div class="skills"> Junit, C#.Net, Play framework, Yii, Laravel, JDBC/jQuery </div>
+				<div class="skills"> Junit, .Net, Play Framework, Yii, Laravel, JDBC/jQuery </div>
 			</ul>
 				
 			<ul>
@@ -120,9 +120,7 @@
 			<div class="col-xs-12">
 				<ul>
 					<li type="circle"> 
-						Developing the frontend and backend for a project named MANTIS (Multi Architectured Network
-						Training Information System). This is web application used to track navy students through their naval
-						training.
+						Developing the frontend and backend on a web application. This is web application is used to track navy students through their naval training
 					</li>
 				</ul>
 			</div>
@@ -139,14 +137,14 @@
 		</div>
 		<div style="padding-right: 2%;" align="right" class="col-xs-6"> 
 				San Francisco, CA <br>
-				Auguest 2015 - October 2015
+				August 2015 - October 2015
 		</div>
 		<div style="padding-left: 8%;padding-right: 10%;" class="row">
 			<div class="col-xs-12">
 				<ul>
 					<li type="circle"> 
-						Responsibilities included creating automated unit tests for User Interfaces and response time by
-						using Shell Scripting, Python and tools like Selenium
+						Created automated unit tests for User Interfaces and response time 
+						using Shell Scripting, Python, and tools like Selenium
 					</li>
 					
 				</ul>
@@ -170,19 +168,19 @@
 			<div class="col-xs-12">
 				<ul>
 					<li type="circle"> 
-						Responsibilities included maintaining and creating new frontend and backend features on top of Yii
-						web codebase.
+						Maintained and created new frontend and backend features on top of Yii
+						web codebase
 					</li>
 					<li type="circle"> 
 						Designed and developed a Chrome and a Firefox web extension using HTML, CSS, JS and a PHP
-						backend to add extra information to app stores like Google play and Amazon Appstore.
+						backend to add extra information to app stores like Google play and Amazon Appstore
 					</li>
 					<li type="circle"> 
 						Designed and developed a tool that gathered information using the Android SDK and performed
-						analytics on that information to determine an apps performance.
+						analytics on that information to determine an app's performance
 					</li>
 					<li type="circle"> 
-						Developed and expanded on a web scraper using Ruby to gather information for analytics.
+						Developed and expanded on a web scraper using Ruby to gather information for analytics
 					</li>
 				</ul>
 			</div>
